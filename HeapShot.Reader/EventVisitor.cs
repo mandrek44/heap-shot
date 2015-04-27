@@ -98,6 +98,11 @@ namespace MonoDevelop.Profiler
 		{
 			return null;
 		}
+
+        public virtual object Visit(CountersDescSampleEvent countersDescSampleEvent)
+	    {
+	        return null;
+	    }
 	}
 }
 
